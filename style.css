@@ -5,6 +5,7 @@
 h1{
     font-size: 7rem;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .score{ 
@@ -20,7 +21,7 @@ h1{
 .choices {
     display: flex;
     justify-content: space-evenly;
-    font-size: 5rem;
+    font-size: 15rem;
     margin-top: 120px;
 }
 
@@ -31,4 +32,23 @@ h1{
     padding: 20px;
     border-radius: 50%;
     border: 1px solid black;
+}
+
+.result {
+    margin-top: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.reset button {
+    font-size: 5rem;
+    border-radius: 10%;
+    border: 5px solid black;
+}
+
+.reset {
+    margin-top: 200px;
+    text-align: center;
 }
